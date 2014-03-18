@@ -1,0 +1,38 @@
+********************************************************************************
+********************** IMPLEMENTATION OF CHESS SCHEDULER ***********************
+********************************************************************************
+
+T A Mahadevan     | 2012MCS2842 | mcs122842@cse.iitd.ac.in
+Chaitanya Andhare | 2012MCS2811 | mcs122811@cse.iitd.ac.in
+
+********************************************************************************
+
+--------------------------------------------------------------------------------
+
+Usage:
+Put the source code of the program to be tested in a single .c file.
+
+Compile: 
+	 make TEST=<path-to-file>
+
+Run:
+	./chess_scheduler test
+
+Clean up object files, binaries, trace files and replay files:
+      	 make clean
+
+To clean up only the trace and replay files:
+   	 make clean_r
+
+--------------------------------------------------------------------------------
+
+Notes:
+The scheduler systematically explores all possible interleavings of a multi-
+threaded program. Any buggy interleavings that lead to an unsuccesful
+termination of the test program are recorded in a trace file in the folder
+errs/.
+
+Examples of test programs with some buggy interleavings can be found in the
+examples/ folder.
+
+********************************************************************************
