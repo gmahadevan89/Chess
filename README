@@ -32,7 +32,7 @@ threaded program. Any buggy interleavings that lead to an unsuccesful
 termination of the test program are recorded in a trace file in the folder
 errs/.
 
-The format of each enty in the trace files generated in errs/ folder are of 
+The format of each entry in the trace files generated in errs/ folder are of 
 the form
 
 <SO> <CRT> <SPNCT> <ST> # <LRT>
